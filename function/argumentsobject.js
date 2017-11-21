@@ -1,4 +1,12 @@
 /**
+Declare the function
+**/
+function changeCarModel(carObject){
+	carObject.model = 'Civic';
+}
+
+
+/**
 My Car object
 **/
 var myCar = {
@@ -10,23 +18,17 @@ var myCar = {
 /**
 print the model
 **/
+// this will print Accord
 console.log(myCar.model);
+
 
 /**
 Pass object reference to the function
 **/
-
 changeCarModel(myCar);
 
 /**
 print the changed model
 **/
+// this will print Civic
 console.log(myCar.model);
-
-
-/**
-Declare the function
-**/
-function changeCarModel(carObject){
-	carObject.model = 'Civic';
-}
