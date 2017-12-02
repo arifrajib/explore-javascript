@@ -74,3 +74,13 @@ padEnd: method pads the current string with another string
 console.log('abc'.padEnd(7));             // 'abc    '
 console.log('abc'.padEnd(5, 'foo'));      // 'abcfo'
 console.log('abc'.padEnd(1, '*'));        // 'abc'
+
+
+
+console.log('*********** str.repeat *********');
+/**
+repeat: method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
+*/
+console.log('abc'.repeat(1));      // 'abcfo'
+console.log('abc'.repeat(0));      // ''
+console.log('abc'.repeat(2.5));    // 'abc'
