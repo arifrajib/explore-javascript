@@ -7,3 +7,14 @@ console.log(name.length);   // 21
 
 
 
+console.log('*********** str.charAt *********');
+/**
+charAt: method returns the specified character from a string.
+*/
+console.log(name.charAt());    // M
+console.log(name.charAt(3));   // A
+console.log(name.charAt(99));  // ''
+
+
+
+
