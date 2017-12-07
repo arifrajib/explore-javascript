@@ -32,3 +32,25 @@ endsWith: method determines whether a string ends with the characters of a speci
 console.log(name.endsWith('Rajib'));       // true
 console.log(name.endsWith('rajib'));       // false
 console.log(name.endsWith('Ariful', 9));   // true
+
+
+
+console.log('*********** str.indexOf *********');
+/**
+indexOf: method returns the index within the calling String of the first occurrence of the specified value
+*/
+var search = 'First index last index';
+console.log(search.indexOf('index'));       // 6
+console.log(search.indexOf('search'));      // -1
+console.log(search.indexOf('index', 10));   // 17
+
+
+
+console.log('*********** str.lastIndexOf *********');
+/**
+lastIndexOf: method returns the index within the calling String object of the last occurrence of the specified value
+*/
+var search = 'First index last index';
+console.log(search.lastIndexOf('index'));       // 17
+console.log(search.lastIndexOf('search'));      // -1
+console.log(search.lastIndexOf('index', 10));   // 6
