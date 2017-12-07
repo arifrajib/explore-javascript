@@ -23,3 +23,12 @@ concat: method combines the text of one or more strings and returns a new string
 */
 console.log('Hello! '.concat('how ', 'are ', 'you.'));    // Hello! how are you.
 
+
+
+console.log('*********** str.endsWith *********');
+/**
+endsWith: method determines whether a string ends with the characters of a specified string
+*/
+console.log(name.endsWith('Rajib'));       // true
+console.log(name.endsWith('rajib'));       // false
+console.log(name.endsWith('Ariful', 9));   // true
