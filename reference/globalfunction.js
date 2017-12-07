@@ -49,3 +49,11 @@ console.log(isNaN('37'));      // false
 
 
 
+console.log('\n\n');
+console.log('*********** parseFloat *********');
+/**
+parseFloat: function parses an argument and returns a floating point number.
+*/
+console.log(parseFloat('3'));             // 3
+console.log(parseFloat('3.14 five six')); // 3.14
+console.log(parseFloat('seven'));         // NaN
