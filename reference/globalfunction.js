@@ -74,3 +74,12 @@ console.log(parseInt('ten', 10));           // NaN
 
 
 
+console.log('\n\n');
+console.log('*********** encodeURI *********');
+/**
+encodeURI: function encodes a Uniform Resource Identifier (URI)
+*/
+console.log(encodeURI('https://arif.rajib.com/my name is rajib'));   // https://arif.rajib.com/my%20name%20is%20rajib
+
+
+
