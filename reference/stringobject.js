@@ -21,5 +21,5 @@ console.log('*********** str.concat *********');
 /**
 concat: method combines the text of one or more strings and returns a new string.
 */
-console.log('Hello '.concat('how ', 'are ', 'you.'));
+console.log('Hello! '.concat('how ', 'are ', 'you.'));
 
