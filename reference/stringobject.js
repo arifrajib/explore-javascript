@@ -54,3 +54,23 @@ var search = 'First index last index';
 console.log(search.lastIndexOf('index'));       // 17
 console.log(search.lastIndexOf('search'));      // -1
 console.log(search.lastIndexOf('index', 10));   // 6
+
+
+
+console.log('*********** str.padStart *********');
+/**
+padStart: method pads the current string with another string
+*/
+console.log('abc'.padStart(7));             // '    abc'
+console.log('abc'.padStart(5, 'foo'));      // 'foabc'
+console.log('abc'.padStart(1, '*'));        // 'abc'
+
+
+
+console.log('*********** str.padEnd *********');
+/**
+padEnd: method pads the current string with another string
+*/
+console.log('abc'.padEnd(7));             // 'abc    '
+console.log('abc'.padEnd(5, 'foo'));      // 'abcfo'
+console.log('abc'.padEnd(1, '*'));        // 'abc'
