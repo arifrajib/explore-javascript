@@ -79,7 +79,18 @@ console.log('*********** encodeURI *********');
 /**
 encodeURI: function encodes a Uniform Resource Identifier (URI)
 */
-console.log(encodeURI('https://arif.rajib.com/my name is rajib'));   // https://arif.rajib.com/my%20name%20is%20rajib
+var encode = encodeURI('https://arif.rajib.com/my name is rajib');
+console.log(encode);   // https://arif.rajib.com/my%20name%20is%20rajib
+
+
+
+
+console.log('\n\n');
+console.log('*********** decodeURI *********');
+/**
+decodeURI: function decodes a Uniform Resource Identifier (URI) previously created by encodeURI or by a similar routine.
+*/
+console.log(decodeURI(encode));   // https://arif.rajib.com/my name is rajib
 
 
 
