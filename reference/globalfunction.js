@@ -57,3 +57,20 @@ parseFloat: function parses an argument and returns a floating point number.
 console.log(parseFloat('3'));             // 3
 console.log(parseFloat('3.14 five six')); // 3.14
 console.log(parseFloat('seven'));         // NaN
+
+
+
+
+console.log('\n\n');
+console.log('*********** parseInt *********');
+/**
+parseInt: function parses a string argument and returns an integer of the specified radix 
+*/
+console.log(parseInt(4-'1.5', 10));         // 2
+console.log(parseInt('3.14 five six'));     // 3
+console.log(parseInt('11', 2));             // 3
+console.log(parseInt('ten', 10));           // NaN
+
+
+
+
