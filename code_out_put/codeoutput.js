@@ -33,3 +33,19 @@ console.log(k);
 /**
 Output will be "1function"
 */
+
+/**
+Write a mul function which will produce the following outputs when invoked:
+console.log(mul(2)(3)(4)); // output : 24 
+console.log(mul(4)(3)(4)); // output : 48
+*/
+function mul(a){
+	return function(b){
+		return function(c){
+			return a*b*c;
+		}
+	}
+}
+
+console.log(mul(2)(3)(4)); // output : 24 
+console.log(mul(4)(3)(4)); // output : 48
