@@ -49,3 +49,20 @@ function mul(a){
 
 console.log(mul(2)(3)(4)); // output : 24 
 console.log(mul(4)(3)(4)); // output : 48
+
+
+
+/**
+Output of the function
+*/
+var output = (function(x){
+    delete x;
+    return x;
+})(0);
+  
+console.log(output); // 0
+/**
+Output will be 0
+*/
+
+
